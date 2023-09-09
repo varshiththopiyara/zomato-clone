@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>zomato clone</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__brand">
+                <img src="soul/logo1.png" alt="logo" class="navbar__logo">
+            </div>
+            <div class="navbar__items">
+                <button class="nav__item hide__mobile ">Order Food</button>
+                <button class=" nav__item hamburger__item mobile__only" id="hamburger__menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+            </div>
+        </nav>
+        <div class="mobile__navbar__items mobile__only hamburger__menu__close">
+            <ul>
+                <li class="navbar__items">Products</li>
+                <li class="navbar__items">Restaurents</li>
+                <li class="navbar__items">Pricing</li>
+                <li class="navbar__items">About Us</li>
+            </ul>
+            <div class="navbar__items">
+                <button class="nav__item">Order Food</button>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <!-- hero section -->
+        <section class="food__container">
+            <div class="food__image__container">
+                <img src="soul/food3.jpg" alt="food image" class="food__image">
+            </div>
+            <div class="food__description">
+                <h1 class="food__text">
+                    Order food from favourite restaurants near you 
+                </h1>
+                <button class="nav__item">Order Now</button>
+                
+            </div>
+        </section> 
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- Explore menu -->
+        <section class="explore__menu__container">
+            <h1 class="explore__menu__text">Explore Our Menu</h1>
+            <div class="explore__menu__gradinet__bg">
+
+            </div>
+            <div class="explore__menu__lists">
+                <!--Burger-->
+                <div class="food__card">
+                    <div class="food__card__image__container">
+                        <img src="soul/burger.jfif" alt="burger" class="food__image">
+                    </div>
+                    <div class="food__card__description">
+                        <h3 class="food__title">Burger</h3>
+                        <p>Burger King,Mcdonalds,Burger Place <span style="color: #D83A56;">+3</span></p>
+                        <br>
+                    </div>
+                    
+                </div> 
+                <br>
+                <br>
+                <!--Pizza-->
+                <div class="food__card" id="pizza__card">
+                    <div class="food__card__image__container">
+                        <img src="soul/pizza.jfif" alt="burger" class="food__image">
+                    </div>
+                    <div class="food__card__description">
+                        <h3 class="food__title">Pizza</h3>
+                        <p>Burger King,Mcdonalds,Burger Place <span style="color: #D83A56;">+3</span></p>
+                        <br>
+                    </div>    
+                </div>
+                <br>
+                <br>
+                <!--Ice Cream-->
+                <div class="food__card">
+                    <div class="food__card__image__container">
+                        <img src="soul/ice cream.jfif" alt="burger" class="food__image">
+                    </div>
+                    <div class="food__card__description">
+                        <h3 class="food__title">Ice cream</h3>
+                        <p>Burger King,Mcdonalds,Burger Place <span style="color: #D83A56;">+3</span></p>
+                        <br>
+                    </div>
+                    
+                </div>
+                <br>
+                <br>
+            </div>
+        </section>
+        <br>
+        <br> 
+        <br>
+        <section>
+            <div class="restaurent__card"> <br> <br><br> <br><br> 
+                <h1 class="restaurent__description">Order From 100's of restaurants</h1> 
+                <div class="restaurent__image__row1">
+                    <div class="restaurent__image">
+                        <img src="soul/restaurent4.jfif" alt="restaurent" class="restaurent__img4">
+                    </div>
+                    <div class="restaurent__image">
+                        <img src="soul/restaurent2.jfif" alt="restaurent" class="restaurent__img2">
+                    </div>
+                </div>
+                <div class="restaurent__image__row2">
+                    <div class="restaurent__image">
+                        <img src="soul/restaurent.jfif" alt="restaurent" class="restaurent__img">
+                    </div>
+                    <div class="restaurent__image">
+                        <img src="soul/restaurent3.jfif" alt="restaurent" class="restaurent__img3">
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+        <section>
+            <div class="stay__update__container">
+                <h1 class="text__container">Stay updated</h1>
+                <div class="internal__text__container">
+                    <input type="text" placeholder="email@email.com" class="email__container">
+                    <button class="nav__item1">Get Updates</button>
+                </div>
+            </div>
+        </section>
+        <!-- <section>
+            <div class="mess__container">
+                <div class="mess__image__container">
+                    <img src="soul/mess.jpg" alt="lunch__hall" class="mess__image">
+                </div>
+                <h2 class="qoute__container">When a man's stomach is full it makes no difference whether he is rich or poor.</h2>
+            </div>
+        </section> -->
+        <footer>
+            <img src="soul/logo1.png" alt="logo"  class="footer__img">
+            <ul>
+                <li>Pricing</li>
+                <li>Terms and Conditions</li>
+                <li>Partnership</li>
+                <li>Carrer</li>
+                <li>Contact</li>
+            </ul>
+        </footer>
+    </main>
+</body>
+</html>
